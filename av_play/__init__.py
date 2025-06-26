@@ -2,6 +2,7 @@ import os
 
 from .media_info import MediaInfo
 from .playlist import PlaylistManager, PlaylistParser, Playlist, PlaylistFormat
+from .__AV_Common import *
 from .__AV_Instance import AVMediaInstance
 from .__utils import find_lib_path
 

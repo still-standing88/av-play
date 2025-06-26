@@ -8,21 +8,20 @@ def get_readme():
 
 setup(
     name="AVPlay",
-    version="1.0.0",
+    version="1.1.1",
     description="Audio and video playback library",
     long_description=get_readme(),
     long_description_content_type='text/markdown',
-    url='https://github.com/still_standing88/av-play/',
+    url='https://github.com/still-standing88/av-play/',
     license='MIT',
     author="still-standing88",
     packages=find_packages(),
     entry_points={
     },
-    install_requires=["python-mpv", "python-vlc", "pyfmodex"],
+    install_requires=["python-mpv", "python-vlc", "pyfmodex", "validators", "music-tag"],
     python_requires=">=3.6",
     classifiers=[
         "Development Status :: 4 - Beta",
-        "Environment :: Console",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
@@ -34,5 +33,5 @@ setup(
         "Topic :: Software Development :: Documentation",
         "Topic :: Utilities",
     ],
-    keywords="project snapshot markdown llm documentation",
+    keywords="av-play AVPlay audio video media playback",
 )
