@@ -42,7 +42,7 @@ if use_mpv:
 
 if use_vlc:
     if os.path.exists(vlc_lib_path): # type: ignore
-        os.environ["PATH"] += os.path.abspath(mpv_lib_path)+os.pathsep # type: ignore
+        os.environ["PATH"] += os.path.abspath(vlc_lib_path)+os.pathsep # type: ignore
     try:
         from .vlc_video_player import VLCVideoPlayer
         from .vlc_audio_filter import (VLCAudioFilter, VLCEqualizerFilter)
