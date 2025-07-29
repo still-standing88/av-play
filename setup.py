@@ -8,7 +8,7 @@ def get_readme():
 
 setup(
     name="AVPlay",
-    version="1.1.1",
+    version="1.2.1",
     description="Audio and video playback library",
     long_description=get_readme(),
     long_description_content_type='text/markdown',

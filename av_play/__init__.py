@@ -1,9 +1,12 @@
 import os
 
 from .media_info import MediaInfo
-from .playlist import PlaylistManager, PlaylistParser, Playlist, PlaylistFormat
+from .playlist import *
+#from .playlist import PlaylistManager, PlaylistParser, Playlist, PlaylistFormat, PlaylistEntry
 from .__AV_Common import *
 from .__AV_Instance import AVMediaInstance
+from .audio_filter import AudioFilter
+from .video_filter import VideoFilter
 from .__utils import find_lib_path
 
 use_fmod = os.environ.get("USE_FMOD", None)
